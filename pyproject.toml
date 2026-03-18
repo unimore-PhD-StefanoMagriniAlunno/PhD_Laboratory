@@ -1,15 +1,19 @@
 [project]
 name = "PhD_Laboratory"
 version = "0.1.0"
-description = "Default template for PDM package"
+description = "Implementations and studies"
 authors = [
     {name = "Stefano Magrini Alunno", email = "376971@studenti.unimore.it"},
 ]
-dependencies = ["pre-commit>=4.5.1", "black>=26.1.0", "mypy>=1.19.1", "pytest>=9.0.2"]
-requires-python = "==3.12.*"
+dependencies = ["torchist>=1.0.1", "tqdm>=4.67.1", "ipykernel>=7.2.0", "jupyter>=1.1.1", "numpy>=2.4.2", "matplotlib>=3.10.8", "pre-commit>=4.5.1", "black>=26.3.1", "mypy>=1.19.1", "pytest>=9.0.2"]
+requires-python = ">=3.12"
 readme = "README.md"
 license = {text = "MIT"}
 
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
 
 [tool.pdm]
-distribution = false
+distribution = true
