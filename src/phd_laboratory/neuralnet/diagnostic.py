@@ -58,7 +58,7 @@ def diagnostic(
             # loss in evaluation mode
             loss_dict: Dict[str, float]
             if isinstance(closure, Closure):
-                loss_dict = closure.loss_fn.eval(model, batch)
+                loss_dict = closure.loss_fn.leval(model, batch)
             else:
                 loss_dict = closure.leval(model, batch)
             epoch_losses.append(loss_dict)
