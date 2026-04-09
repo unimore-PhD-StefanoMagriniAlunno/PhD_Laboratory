@@ -5,7 +5,7 @@ description = "Implementations and studies"
 authors = [
     {name = "Stefano Magrini Alunno", email = "376971@studenti.unimore.it"},
 ]
-dependencies = ["torchist>=1.0.1", "tqdm>=4.67.1", "ipykernel>=7.2.0", "jupyter>=1.1.1", "numpy>=2.4.2", "pre-commit>=4.5.1", "black>=26.3.1", "mypy>=1.19.1", "pytest>=9.0.2", "tikzplotlib>=0.10.1", "matplotlib>=3.10.8", "torch>=2.7.1"]
+dependencies = ["torchist>=1.0.1", "tqdm>=4.67.1", "jupyter>=1.1.1", "numpy>=2.4.2", "pre-commit>=4.5.1", "black>=26.3.1", "mypy>=1.19.1", "pytest>=9.0.2", "tikzplotlib>=0.10.1", "matplotlib>=3.10.8", "torch>=2.7.1", "ipykernel>=7.2.0"]
 requires-python = ">=3.12"
 readme = "README.md"
 license = {text = "MIT"}
